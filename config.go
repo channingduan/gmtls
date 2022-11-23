@@ -1,11 +1,12 @@
 package gmtls
 
 type Config struct {
-	CaCert   string
-	SignCert string
-	SignKey  string
-	EnCert   string
-	EnKey    string
+	CaCert     string
+	SignCert   string
+	SignKey    string
+	EnCert     string
+	EnKey      string
+	IsSMCrypto bool
 }
 
 const (
